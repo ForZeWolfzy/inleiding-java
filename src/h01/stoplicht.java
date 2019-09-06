@@ -7,9 +7,15 @@ public class stoplicht extends Applet {
     }
 
     public void paint(Graphics g) {
-        setBackground(Color.blue);
+        setBackground(Color.white);
+        g.setColor(Color.black);
+        g.drawRoundRect(20, 20, 50, 100, 10,10);
+        g.fillRoundRect(20,20,50,100,10,10);
+        g.setColor(Color.red);
+        g.fillArc(30,25,30,30,90,360);
         g.setColor(Color.yellow);
-        g.drawRoundRect(20, 20, 50, 100, 90, 360);
-        g.fillArc(32,32,25,25,10,10);
+        g.fillArc(30,55,30,30,90,360);
+        g.setColor(Color.green);
+        g.fillArc(30,85,30,30,90,360);
     }
 }
