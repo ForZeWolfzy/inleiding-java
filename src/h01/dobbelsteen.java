@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.applet.*;
 
-public class praktijk extends Applet {
+public class dobbelsteen extends Applet {
 
     public void init() {
     }
