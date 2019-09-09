@@ -1,22 +1,22 @@
 import java.awt.*;
 import java.applet.*;
 
-public class vijfpunteen extends Applet {
+        public class vijfpunteen extends Applet {
 
-        Color opvulkleur;
-        Color lijnkleur;
-        int breedte;
-        int hoogte;
+            Color opvulkleur;
+            Color lijnkleur;
+            int breedte;
+            int hoogte;
 
-        public void init() {
-            //initialisatie.
-            opvulkleur = Color.MAGENTA;
-            lijnkleur = Color.BLACK;
-            breedte = 200;
-            hoogte = 100;
-    }
+            public void init() {
+                //initialisatie.
+                opvulkleur = Color.MAGENTA;
+                lijnkleur = Color.BLACK;
+                breedte = 200;
+                hoogte = 100;
+            }
 
-    public void paint(Graphics g) {
+            public void paint(Graphics g) {
         setBackground(Color.white);
         g.setColor(lijnkleur);
         g.drawLine(10,20,260,20);
