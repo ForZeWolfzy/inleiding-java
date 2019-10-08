@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Gemiddelde2 extends Applet {
+public class h10op5 extends Applet {
     Button ok;
     TextField tekstvak;
     double cijfers,totaal,conv;
